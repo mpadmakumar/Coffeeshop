@@ -1,0 +1,564 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav{
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    background-color:black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#nav h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+span{
+    color: #b8711b;
+    margin-left: 5px;
+    font-size: 28px;
+}
+#ul-1,li{
+    display: flex;
+      margin-top: 0px;
+    column-gap:10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#ul-1 li:hover{
+       color:black;
+       border: 1px solid cyan;
+       background-color: aqua;
+       border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+#ul-1{
+    margin-left: 500px;
+}
+    /* side nav bar */
+#sidenav{
+    height: 260px;
+    width: 400px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    display: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+}
+#sidenav #ul-1 li{
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+}
+.mark{
+    margin-left: 360px;
+    font-size: 30px;
+}
+/* home section*/
+#section-1{
+    height: 600px;
+    background-image:url(./h-1.jpeg);
+    background-size:cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#section-1 h1,#p{
+    padding-left:650px; 
+}
+#section-1 h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#section-1 .text .btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    border:2px solid black ;
+    background-color:white;
+    color:black;
+}
+.text #p:hover{
+       color: white;
+}
+#section-1 .text .btn:hover{
+    border: 2px solid white;
+    background-color: #b8711b;
+}
+/* about section*/
+#about{
+    background-color: aliceblue;
+}
+.container{
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.container .imgarea{
+   margin-top: 30px;
+   margin-left: 40px ;
+
+}
+.imgarea img{
+    border-radius: 5%;
+    margin-top: 30px;
+}
+
+.textarea{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 70px;
+}
+.textarea .p{
+    margin-top: 20px;
+}
+#h1{
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    color: #b8711b;
+}
+
+/* ------Mene section -----------------*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu .coffee{
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.coffee h2{
+    font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coffee button{
+    border: 1px solid orange;
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.coffee button:hover{
+
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+/*-----product page ----*/
+#poroduct{
+    bottom: 30px;
+}
+.product{
+    display: flex;
+}
+.product .pro{
+    height: 350px;
+    width: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+.pro h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product .pro p
+ {
+    margin-bottom: 30px;
+}
+.pro em{
+    margin-right: 110px;
+}
+
+/*gallarey*/
+#gallery{
+    margin-top: 60px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery .gimg{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.gimg img{
+    width: 300px;
+    border-radius: 10px;
+    transition:transform 0.5s ease-in-out;
+}
+.gimg img:hover{
+    transform: scale(1.1);
+}
+
+/*-------contact section--------------*/
+#contact{
+    margin-top: 70px;
+    
+    
+}
+.contact{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    
+}
+
+.contact .contact-icons{
+    color: black;
+}
+.contact .contact-icons em{
+    font-size: 20px;
+}
+
+.contact .contact-icons #time, #phone,#web,#email{
+    color: black;
+    font-size: 30px;
+    margin-left:60px;
+    margin-top: 30px;
+    padding-right:30px;
+
+}
+.contact .contact-icons #email{
+    color: red;
+}
+.contact-icons #web{
+    color:#0215c2;
+}
+
+.contact .contact-icons #phone {
+    color:#20680a;
+}
+.contact .input{
+    margin-top: 50px;
+}
+.contact .input .n{
+    margin-left:200px;
+    margin-bottom:20px;
+    padding-left: 10px;
+    height: 28px;
+    width: 550px;
+    border: 1px solid gray;
+}
+.input #n{
+    height: 80px;
+}
+.input button{
+    margin-left:200px ;
+    margin-top: 10px;
+    height: 35px;
+    width: 130px;
+    border: 1px solid #b8711b;
+    border-radius: 10px;
+    background-color:#d18c38;
+    margin-bottom: 20px;
+}
+.input button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/* footer section ----*/
+footer{
+    background-color:black;
+}
+.fcontainer{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 0px;
+    color: white;
+}
+.fcontainer p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fcontainer .el{
+    margin-left: 55px;
+}
+.fcontainer .el h2{
+    font-size: 30px;
+   padding-bottom: 15px;
+
+}
+.el p{
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fcontainer .ul{
+    margin-left: 55px;
+    margin-top: 8px;
+}
+.ul h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.ul p{
+    padding-bottom: 15px;  
+}
+.fcontainer .os{
+    margin-left: 55px;
+    margin-top: 8px;
+}
+.os h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.os p{
+    padding-bottom: 15px;
+}
+.fcontainer .osn h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.fcontainer .osn{
+    margin-left: 55px;
+    margin-top: 8px;
+}
+.fp{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.fp {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+    height: 100px;
+}
+.fp hr{
+    margin-bottom: 20px;
+    color: gold;
+}
+.fp .f{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.f b{
+    color: gold;
+}
+.fp .fem{
+    margin-left: 500px;
+    font-size: 25px;
+}
+.fem a{
+    color: gold;
+}
+.hr{
+    margin-top: 30px;
+}
+.osn i{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 8px;  
+    transition:transform 0.5s ease-in-out; 
+}
+.osn i:hover{
+    transform: scale(1.5);
+    color: cyan;
+}
+.fcontainer h2 {
+    color:gold;
+}
+.fcontainer span{
+    color:white;
+}
+p:hover{
+    color: #d48523;
+}
+
+/*-----------------------------meadia screen ----------------*/
+@media screen and (max-width:700px) {
+
+
+      #nav{
+       padding-left: 10px;
+      }
+      #nav h1{
+        font-size: 28px;
+         margin-left: 5px;
+      }
+      span{
+        font-size:25px ;
+      }
+    .sidebar{
+        display:block;
+        margin-right: 5px;
+        margin-left: 270px;
+        color: white;
+        font-size: 25px;
+    
+    }
+    #nav #ul-1{
+        display:none ;
+    }
+    /* section-1 */
+    #section-1{
+        justify-content: start;
+        align-items: start;
+    }
+    #section-1 h1,#p{
+        padding-left: 20px;
+    }
+    #section-1 h1{
+        font-size: 35px;
+        margin-top: 150px;
+    }
+    #section-1 .text .btn{
+        height: 28px;
+        width: 100px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+    #section-1 .text{
+        background-image: url(./g-4.jpeg);
+        background-size: cover;
+        height: 500px;
+    }
+    /*about section */
+     .container{
+        margin-bottom: 50px;
+        display:block;
+
+     }
+     
+     .container .imgarae{
+        margin-left:20px;
+     }
+     .imgarae img{
+        margin-left:50px;
+
+     }
+     .textarea{
+        margin-left: 40px;
+        margin-right: 10px;
+     }
+     /*menu section */
+     .menu .coffee{
+        margin-left: 10px;
+     }
+     /* gallery section */
+     .gallery{
+        margin-left: 30px;
+     }
+     .gallery .gimg img{
+        width: 300px;
+     }
+   
+     /*--product page --*/
+     .product{
+        flex-wrap: wrap;
+    }
+    .product .pro{
+        margin-left: 80px;
+        width: 250px;
+        margin-bottom: 0px;
+    }
+    
+    /*footer section */
+    .fcontainer{
+        
+        display: block;
+        justify-content: center;
+    }
+    .fcontainer .el{
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    .fcontainer .ul{
+        margin-left: 60px;
+    }
+    .fcontainer .os{
+        margin-left: 60px;
+    }
+    .fcontainer .osn{
+        margin-left: 60px;
+    }
+     .fcontainer p{
+         font-size: 15px;
+         margin-bottom: 5px;
+     }
+     .fcontainer i{
+        font-size: 25px;
+        margin-left: 10px;
+     }
+    .fp{
+        margin-top: 20px;
+       flex-wrap: wrap;
+       display: block;
+       margin-bottom: 20px;
+       text-align:center;
+       height: 150px;
+    }
+    .fp .f{
+        font-size: 20px;
+        margin-left: 10px;
+        display: block;
+        margin-bottom: 25px;
+    }
+    .fp hr{
+        margin-bottom:5px;
+    }
+    .fp .fem{
+        margin-left: 2px;
+        margin-top:10px;
+        font-size: 28px;
+       }
+       .fem a{
+           font-size: 30px;
+           text-decoration: underline;
+       }
+       /*---contact page */
+       .contact{
+        flex-wrap: wrap;
+       }
+       .contact .input .n{
+        margin-left: 30px;
+        width: 400px;
+       }
+       .input button{
+        margin-left: 180px;
+        width: 100px;
+
+       }
+ 
+
+
+}
