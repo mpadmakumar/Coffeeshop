@@ -408,10 +408,10 @@ p:hover{
 
 
       #nav{
-       padding-left: 10px;
+       padding-left: 5px;
       }
       #nav h1{
-        font-size: 28px;
+        font-size: 25px;
          margin-left: 5px;
       }
       span{
@@ -420,7 +420,7 @@ p:hover{
     .sidebar{
         display:block;
         margin-right: 5px;
-        margin-left: 270px;
+        margin-left: 250px;
         color: white;
         font-size: 25px;
     
@@ -428,7 +428,11 @@ p:hover{
     #nav #ul-1{
         display:none ;
     }
+    
     /* section-1 */
+    #h1{
+        font-size: 28px;
+    }
     #section-1{
         justify-content: start;
         align-items: start;
@@ -450,7 +454,7 @@ p:hover{
     #section-1 .text{
         background-image: url(./g-4.jpeg);
         background-size: cover;
-        height: 500px;
+        height: 600px;
     }
     /*about section */
      .container{
@@ -472,14 +476,22 @@ p:hover{
      }
      /*menu section */
      .menu .coffee{
-        margin-left: 10px;
+        margin-left: 0px;
      }
      /* gallery section */
+     #gallery{
+        margin-left: 0px;
+     }
      .gallery{
-        margin-left: 30px;
+        margin-left: 0px;
+        justify-content: space-evenly;
+     }
+     .gallery .gimg{
+        margin-left: 0px;
      }
      .gallery .gimg img{
-        width: 300px;
+        width: 150px;
+        height: 150px;
      }
    
      /*--product page --*/
@@ -487,7 +499,7 @@ p:hover{
         flex-wrap: wrap;
     }
     .product .pro{
-        margin-left: 80px;
+        margin-left: 60px;
         width: 250px;
         margin-bottom: 0px;
     }
@@ -549,12 +561,15 @@ p:hover{
        .contact{
         flex-wrap: wrap;
        }
+       .contact .contact-icons #time, #phone,#web,#email{
+             margin-left: 20px;
+       }
        .contact .input .n{
-        margin-left: 30px;
-        width: 400px;
+        margin-left: 20px;
+        width: 350px;
        }
        .input button{
-        margin-left: 180px;
+        margin-left: 140px;
         width: 100px;
 
        }
