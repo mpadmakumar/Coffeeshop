@@ -562,7 +562,7 @@ p:hover{
         flex-wrap: wrap;
        }
        .contact .contact-icons #time, #phone,#web,#email{
-             margin-left: 10px;
+             margin-left: 20px;
              font-size: 25px;
        }
        .contact .input .n{
